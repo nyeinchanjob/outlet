@@ -1,0 +1,30 @@
+<ion-side-menus enable-menu-with-back-views="true">
+    <ion-side-menu-content>
+        <ion-nav-view name="side-menu-main"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" id="side-menu-main">
+        <ion-header-bar class="bar bar-header bar-stable">
+            <div class="title">Menu</div>
+        </ion-header-bar>
+        <ion-content padding="false" class="side-menu-left has-header ">
+            <ion-list id="menu-list2">
+                <ion-item class="item-icon-left" id="menu-list-home" ui-sref="menu.home" menu-close="">
+                    <i class="icon ion-ios-home-outline"></i>Home</ion-item>
+                <ion-item class="item-icon-left" id="menu-list-outlets" ui-sref="menu.outlets" menu-close="">
+                    <i class="icon ion-ios-cart-outline"></i>Outlet</ion-item>
+                <ion-item class="item-divider" id="menu-list-item-divider1">Setup</ion-item>
+                <ion-item class="item-icon-left" id="menu-list-questions" ui-sref="menu.questions" menu-close="">
+                    <i class="icon ion-ios-list-outline"></i>Question</ion-item>
+                <ion-item class="item-icon-left" id="menu-list-types" ui-sref="menu.types" menu-close="">
+                    <i class="icon ion-ios-pricetag-outline"></i>Type</ion-item>
+                <ion-item class="item-divider" id="menu-list-item-divider2">Others</ion-item>
+                <ion-item class="item-icon-left" id="menu-list-setting" ui-sref="menu.setting" menu-close="">
+                    <i class="icon ion-ios-cog-outline"></i>Setting</ion-item>
+                <ion-item class="item-icon-left" id="menu-list-profile" ui-sref="menu.profile" menu-close="">
+                    <i class="icon ion-ios-contact-outline"></i>Profile</ion-item>
+                <ion-item class="item-icon-left" id="menu-list-login" ui-sref="login" menu-close="">
+                    <i class="icon ion-ios-locked-outline"></i>Logout</ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
